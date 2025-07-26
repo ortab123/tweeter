@@ -45,8 +45,6 @@ $(document).on("click", ".comment-button", function () {
 });
 
 $(document).on("click", ".delete-comment", function () {
-  console.log("Delete comment button clicked!");
-
   const postElement = $(this).closest(".post");
   const postId = postElement.data("id");
   const commentId = $(this).data("id");
@@ -58,8 +56,6 @@ $(document).on("click", ".delete-comment", function () {
 });
 
 $(document).on("click", ".delete", function () {
-  console.log("Delete post button clicked!");
-
   const postElement = $(this).closest(".post");
   const postId = postElement.data("id");
 
