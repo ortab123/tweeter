@@ -1,4 +1,4 @@
-# tweeter# Tweeter 🐦
+## Tweeter 🐦
 
 A simplified Twitter-like application built with JavaScript, HTML, CSS, and jQuery.  
 Users can create posts ("twits"), comment on them, and delete both posts and comments — all rendered dynamically in the browser.
@@ -72,7 +72,11 @@ tweeter/
 This project was built to practice:
 
 ✅ Modular JS development
+
 ✅ Dynamic DOM rendering
+
 ✅ jQuery selectors and event delegation
+
 ✅ MVC separation of concerns
+
 ✅ Code readability and maintainability
