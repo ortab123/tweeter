@@ -23,7 +23,7 @@ body {
   background-color: #1da1f2;
   color: white;
   border: none;
-  padding: 10px 20px;
+  padding: 10px 40px;
   font-size: 1em;
   cursor: pointer;
   border-radius: 5px;
@@ -41,6 +41,13 @@ body {
 .post-text {
   font-weight: bold;
   margin-bottom: 10px;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.9em;
+  margin-top: 5px;
+  display: none;
 }
 
 .comments {
@@ -94,4 +101,9 @@ body {
   border-radius: 4px;
   cursor: pointer;
   font-weight: bold;
+}
+
+.input-error {
+  border: 2px solid red;
+  background-color: #ffe6e6;
 }

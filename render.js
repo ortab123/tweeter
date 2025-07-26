@@ -24,7 +24,9 @@ const Renderer = function () {
         <div class="post-text">${post.text}</div>
         <div class="comments"></div>
         <input type="text" placeholder="Got something to say?" class="comment-input">
+        <div class="comment-error error-message"></div>
         <button class="comment-button">Comment</button>
+        <br>
         <button class="delete" data-id="${post.id}">Delete Post</button>
         </div>
         `);
